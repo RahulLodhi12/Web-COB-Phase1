@@ -1,0 +1,92 @@
+body {
+   background-image: url(bg.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-color: rgb(219, 225, 170);
+   /* font-family: 'Poppins', sans-serif; */
+   font-family: 'Poppins', sans-serif;
+   font-family: 'Roboto', sans-serif;
+   opacity: 0.8;
+   justify-content: center;
+}
+
+.container {
+   width: 360px;
+   padding: 33px;
+   text-align: center;
+   background-color: #fff;
+   margin-left: 33%;
+   margin-top: 5px;
+}
+
+.container h1 {
+   color: #275626;
+   overflow: hidden;
+   border-right: .15em solid rgb(255, 255, 255);
+   white-space: nowrap;
+   margin: 0 auto;
+   letter-spacing: .15em;
+   animation:
+      typing 2.9s steps(30, end),
+      blink-caret .5s step-end infinite;
+}
+
+@keyframes typing {
+   from {
+      width: 0
+   }
+
+   to {
+      width: 100%
+   }
+}
+
+@keyframes blink-caret {
+
+   from,
+   to {
+      border-color: transparent
+   }
+
+   50% {
+      border-color: rgb(255, 255, 255)
+   }
+}
+
+input {
+   width: 270px;
+   padding: 8px;
+   border: 2px solid rgb(175, 192, 192);
+   outline: none;
+   font-size: 19px;
+
+
+}
+
+button {
+   width: 60px;
+   height: 41px;
+   background-color: rgb(46, 152, 69);
+   color: white;
+   border: none;
+   cursor: pointer;
+
+   outline: none;
+   border-radius: 2px;
+   font-size: 19px;
+}
+
+.text ul {
+   position: relative;
+   background-color: rgb(113, 173, 94);
+   color: rgb(245, 243, 217);
+   font-size: 19px;
+   padding: 7px;
+   text-align: left;
+}
+
+.text ul i {
+   position: absolute;
+   right: 10px;
+   cursor: pointer;
+}
